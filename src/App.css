@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+.App {
+  /* text-align: center; */
+  margin: 0;
+  background: #D8D8D8;
+  overflow-x: hidden;
+  font-family: 'Montserrat';
+}

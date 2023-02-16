@@ -1,0 +1,30 @@
+.our-services:hover{
+    color: #DB3331;
+}
+.navbar-buttons{
+    display: flex;
+    gap: 4vw;
+}
+.our-services{
+    border: none;
+    background: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+.primary-navbar{
+    background: white;
+    padding: 0 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:94vw;
+    height: 8vh;
+}
+.logo{
+    height: 38px;
+    padding-top: 2px;
+}

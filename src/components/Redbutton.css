@@ -1,0 +1,12 @@
+.subscribe{
+    border: none;
+    background: #DB3331;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+}

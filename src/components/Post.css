@@ -1,0 +1,80 @@
+.post{
+    background: white;
+    border-radius: 8px;
+    color: black;
+    max-width: 909px;
+    width: 909px;
+}
+h2,p,h1,h3{
+    margin:0;
+}
+.post-container{
+    padding: 3vh 2vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.image-and-content{
+    display: flex;
+    align-items: flex-start;
+    gap : 2vw;
+}
+.post-img{
+    width: 360px;
+    max-width: 360px;
+}
+.contents{
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.source-date{
+    font-weight: 600;
+    margin-top: 2vh;
+}
+.post-btn{
+    border: none;
+    color: white;
+    width: calc((909px - 6px)/4);
+    height: 45px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: normal;
+}
+.button-set{
+    display: flex;
+    justify-content: space-between;
+}
+.button-set a{
+    text-decoration: none;
+}
+.copy-btn{
+    background: #002B65;   
+    border-radius: 0 0 0 8px; 
+}
+.copy-btn:hover{
+    background: #1B437A;
+}
+.view-btn{
+    background: rgba(219, 51, 49, 0.85);
+}
+.view-btn:hover{
+    background: #DB3331;
+}
+.linkedin-btn{
+    background: rgba(0, 114, 177, 0.85);
+}
+.linkedin-btn:hover{
+    background: #0072B1;
+}
+.twitter-btn{
+    background: rgba(0, 172, 238, 0.85);
+    border-radius: 0 0 8px 0;
+}
+.twitter-btn:hover{
+    background: #00ACEE;
+}

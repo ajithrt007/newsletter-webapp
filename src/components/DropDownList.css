@@ -1,0 +1,20 @@
+.services-list-items{
+    padding: 10px 20px;
+    background: white;
+    text-decoration: none;
+    color: black;
+}
+.services-list-items:hover{
+    background: #DB3331;
+    color: white;
+}
+.services-extension a:not(:last-child){
+    border-bottom: 1.5px solid black;
+}
+.services-extension{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 8.1vh;
+    left: calc(100vw - (3vw + 4vw + 112.467px + 89.0667px));
+}
